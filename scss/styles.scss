@@ -1,6 +1,9 @@
 $test: blue;
 body {
-  background-image: url("../images/launch.jpeg");
+  background-image: url("../images/launch_eight_bit.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
   width: 100vw;
 }
