@@ -8,4 +8,11 @@ body {
 
 h1 {
   font-family: "Press Start 2P", cursive;
-  color: white; }
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40vh;
+  width: 100vw; }
