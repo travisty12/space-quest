@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "animate.css": "^3.7.2",
     "node-sass": "^4.13.0"
   },
   "scripts": {

@@ -32,3 +32,11 @@ body {
     text-align: center;
     width: 30vw;
     height: 35px; }
+
+.example {
+  color: white; }
+
+.createdBy {
+  font-family: "Press Start 2P", cursive;
+  font-size: 15px;
+  color: white; }
