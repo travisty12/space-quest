@@ -1,6 +1,5 @@
 $test: blue;
 body {
-  //   background-image: url("../images/launch_eight_bit.png");
   background-image: url("../images/space-background.gif");
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,23 +7,18 @@ body {
   height: 100vh;
   width: 100vw;
 }
-h1 {
+#msg {
   font-family: "Press Start 2P", cursive;
+  font-size: 30px;
   color: white;
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
   text-align: center;
-  //   border: 1px solid white;
   height: 40vh;
   width: 100vw;
 }
-
-// p {
-//   font-family: "Press Start 2P", cursive;
-//   color: white;
-// }
 
 .button {
   display: flex;
@@ -38,23 +32,7 @@ h1 {
     align-content: center;
     align-items: center;
     text-align: center;
-
     width: 30vw;
     height: 35px;
   }
 }
-
-// .button-div {
-//   display: flex;
-//   justify-content: center;
-// }
-// .button {
-//   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-//   border-radius: 4px;
-//   background-color: #38b799;
-//   color: white;
-//   padding: 15px 35px;
-//   cursor: pointer;
-//   margin-top: 3%;
-//   font-family: "Roboto", sans-serif;
-// }

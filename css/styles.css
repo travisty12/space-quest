@@ -6,8 +6,9 @@ body {
   height: 100vh;
   width: 100vw; }
 
-h1 {
+#msg {
   font-family: "Press Start 2P", cursive;
+  font-size: 30px;
   color: white;
   display: flex;
   justify-content: center;
