@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/scripts.js"></script>
-    <title>space</title>
-  </head>
-  <body>
-    <div id="container">
-      <div id="head">
-        <h1>Space</h1>
-      </div>
-      <div id="body">
-        <div id="hud">
-          <p id="time"><span id="minutes">60</span><span id="seconds">00</span></p>
-          <p id="gas">100</p>
-        </div>
-      </div>
-      <div id="foot">
-        
-      </div>
-    </div>
-  </body>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>space</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="head">
+        <h1>Space</h1>
+      </div>
+      <div id="body">
+        <div id="hud">
+          <p id="time">Time: <span id="minutes">1</span>:<span id="seconds">00</span></p>
+          <p id="gas">100</p>
+          <div id="rateDiv">
+            <p id="increase">+</p>
+            <p>Gas: <span id="rate">1</span></p>
+            <p id="decrease">-</p>
+          </div>
+        </div>
+        <div id="prompt">
+          <p>You are the pilot of the Galactic Federation's finest spacechip.</p>
+        </div>
+        <div id="choices">
+          <div id="choice1">
+
+          </div>
+          <div id="choice2">
+
+          </div>
+        </div>
+      </div>
+      <div id="foot">
+
+      </div>
+    </div>
+  </body>
 </html>
