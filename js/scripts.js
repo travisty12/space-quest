@@ -14,4 +14,11 @@ $(document).ready(() => {
     $("#seconds").text(time[0]);
     $("#minutes").text(time[1]);
   }, 1000)
+
+  $("#increase").click(() => {
+    $("#rate").text((parseFloat($("#rate").text()) + .1).toPrecision(2))
+  });
+  $("#decrease").click(() => {
+    $("#rate").text((parseFloat($("#rate").text()) - .1).toPrecision(2))
+  });
 });
