@@ -23,10 +23,12 @@ body {
 .button {
   display: flex;
   justify-content: center;
+
   button {
     font-family: "Press Start 2P", cursive;
     color: white;
     background-color: purple;
+    border-radius: 12px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -34,15 +36,24 @@ body {
     text-align: center;
     width: 30vw;
     height: 35px;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-delay: 1s;
+  }
+  button:hover {
+    background-color: white;
+    color: teal;
   }
 }
 
-.example {
-  color: white;
-}
-
 .createdBy {
+  animation-duration: 2s;
+  animation-delay: 1s;
   font-family: "Press Start 2P", cursive;
   font-size: 15px;
   color: white;
+  display: flex;
+  justify-content: center;
+  border:1px solid white;
+  margin-bottom:
 }
