@@ -1,7 +1,7 @@
 # Space Quest
 ##### Space, baby
 
-### Created by **Travis Toal & Robbie Kruszynski**, 10/25/19
+### Created by **Travis Scott & Robbie Kruszynski**, 10/25/19
 
 ## Description (current)
 * Choose-Your-Own-Adventure game based in space, to educate users about blockchain.
@@ -38,4 +38,4 @@ _No known bugs as of 10/27/19_
 _This software is licensed under the MIT license_
 
 Copyright (c) 2019
-**_Travis Toal & Robbie Kruszynski_**  
+**_Travis Scott & Robbie Kruszynski_**  
